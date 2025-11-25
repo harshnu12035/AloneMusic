@@ -43,15 +43,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheAloneTeam/AloneMusic",
+    "https://github.com/harshnu12035/AloneMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheAloneTeam")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheTeamAlone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shona_bots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cpc-CeRmKTBiMWI1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
@@ -90,7 +90,7 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://graph.org/file/004b61545b493662eacf1-71a5b2f2f11ff4a41a.jpg",
+    "https://files.catbox.moe/om8z08.jpg",
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
