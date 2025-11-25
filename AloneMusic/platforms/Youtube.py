@@ -115,7 +115,7 @@ async def download_song(link: str) -> str:
             return None
     
     video_id = link.split('v=')[-1].split('&')[0] if 'v=' in link else link
-    logger = LOGGER(AloneMusic"/platforms/Youtube.py")
+    logger = LOGGER("AloneMusic/platforms/Youtube.py")
     logger.info(f"🎵 [AUDIO] Starting download for: {video_id}")
 
     if not video_id or len(video_id) < 3:
